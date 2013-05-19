@@ -2359,7 +2359,7 @@ public class LatinIME extends InputMethodService implements
             abortCorrection(false);
         }
 
-        if (isAlphabet(primaryCode) && isPredictionOn()
+        if (isAlphabet(primaryCode) && isPredictionOn() && false
                 && !mModCtrl && !mModAlt
                 && !isCursorTouchingWord()) {
             if (!mPredicting) {
